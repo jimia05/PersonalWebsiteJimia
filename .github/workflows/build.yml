@@ -36,6 +36,7 @@ jobs:
   # Deployment job
   deploy:
     permissions:
+      deployments: write # Grants write access to deployments
       id-token: write # Required for requesting the JWT
       pages: write
     environment:
