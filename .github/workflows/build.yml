@@ -37,6 +37,7 @@ jobs:
   deploy:
     permissions:
       id-token: write # Required for requesting the JWT
+      pages: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
