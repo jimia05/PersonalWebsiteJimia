@@ -7,9 +7,9 @@ import Education from "../Components/Education";
 import Contact from "../Components/Contact";
 
 const images = [
-  "/src/assets/Photos for website copy/Play/IMG_4546.JPG",
-  "/src/assets/Photos for website copy/Play/IMG_8169.JPG",
-  "/src/assets/Photos for website copy/Play/IMG_9414.HEIC",
+  "/Photos for website copy/Play/IMG_4546.JPG",
+  "/Photos for website copy/Play/IMG_8169.JPG",
+  "/Photos for website copy/Play/IMG_9414.HEIC",
 ];
 
 const Home = () => (

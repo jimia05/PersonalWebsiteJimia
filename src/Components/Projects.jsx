@@ -22,7 +22,7 @@ const projects = [
 
 const Projects = () => (
   <Card>
-    <h3 className="text-2xl font-bold mb-2">Projects</h3>
+    <h2 className="text-2xl font-bold mb-2">Projects</h2>
     <ul>
       {projects.map(project => (
         <li key={project.name} className="mb-4">
